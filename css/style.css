@@ -1,3 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    /* font-size: (valor por defecto) 16px; */
+}
+
 body {
-    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3rem;
+    background-color: rgb(241, 227, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 1rem;
+}
+
+h1 {
+    font-size: 2.8rem;
+    text-align: center;
+    /* margin-bottom: 2rem; (Menos preciso y menos útil) */
+    padding-bottom: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.btns {
+    width: 40%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.btns > a {
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    color: black;
+    border: 2px black solid;
+    font-weight: bold;
+    border-radius: 30px;
+    flex: 1;
+}
+
+.btns > a:first-child {
+    background-color: yellowgreen;
+}
+
+.btns > a:last-child {
+    background-color: aliceblue;
 }
