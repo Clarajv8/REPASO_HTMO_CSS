@@ -1,5 +1,7 @@
 console.log("online!");
 
-let test = $(".btns")
+let $btnBuy = $("#btnBuy");
 
-console.log(test)
+$btnBuy.on("click", function(){
+    alert("Thanks for your purchase!");
+});
